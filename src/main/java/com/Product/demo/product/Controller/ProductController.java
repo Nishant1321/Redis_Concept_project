@@ -22,7 +22,7 @@ public class ProductController {
         return ResponseEntity.ok(productService.getAllProducts());
     }
 
-    @GetMapping("{/id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Products> getProductById(@PathVariable  Long id){
         return ResponseEntity.ok(productService.getProductById(id));
 
@@ -33,7 +33,7 @@ public class ProductController {
         return ResponseEntity.status(HttpStatus.CREATED).body(productService.createProducts(productsDTO));
     }
 
-    @PutMapping("{/id}")
+    @PutMapping("/{id}")
     public ResponseEntity<Products> updateProductById(@PathVariable Long id ,@RequestBody ProductsDTO productsDTO){
         return ResponseEntity.ok(productService.updateProductById(id,productsDTO));
     }
