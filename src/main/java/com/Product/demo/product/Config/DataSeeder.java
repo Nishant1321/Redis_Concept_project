@@ -30,120 +30,120 @@ public class DataSeeder implements CommandLineRunner {
                     Products.builder()
                             .productName("MacBook Pro")
                             .productDescription("Apple MacBook Pro M3 laptop")
-                            .ProductStock(15L)
-                            .ProductPrice(new BigDecimal("150000.00"))
+                            .productStock(15L)
+                            .productPrice(new BigDecimal("150000.00"))
                             .category("Electronics")
                             .build(),
 
                     Products.builder()
                             .productName("Dell XPS 15")
                             .productDescription("Dell XPS high performance laptop")
-                            .ProductStock(20L)
-                            .ProductPrice(new BigDecimal("135000.00"))
+                            .productStock(20L)
+                            .productPrice(new BigDecimal("135000.00"))
                             .category("Electronics")
                             .build(),
 
                     Products.builder()
                             .productName("iPhone 16")
                             .productDescription("Apple iPhone 16 smartphone")
-                            .ProductStock(30L)
-                            .ProductPrice(new BigDecimal("79999.00"))
+                            .productStock(30L)
+                            .productPrice(new BigDecimal("79999.00"))
                             .category("Mobiles")
                             .build(),
 
                     Products.builder()
                             .productName("Samsung Galaxy S25")
                             .productDescription("Samsung flagship Android smartphone")
-                            .ProductStock(25L)
-                            .ProductPrice(new BigDecimal("84999.00"))
+                            .productStock(25L)
+                            .productPrice(new BigDecimal("84999.00"))
                             .category("Mobiles")
                             .build(),
 
                     Products.builder()
                             .productName("Sony Headphones")
                             .productDescription("Sony wireless noise cancelling headphones")
-                            .ProductStock(40L)
-                            .ProductPrice(new BigDecimal("9999.00"))
+                            .productStock(40L)
+                            .productPrice(new BigDecimal("9999.00"))
                             .category("Accessories")
                             .build(),
 
                     Products.builder()
                             .productName("Logitech Mouse")
                             .productDescription("Logitech wireless optical mouse")
-                            .ProductStock(50L)
-                            .ProductPrice(new BigDecimal("1499.00"))
+                            .productStock(50L)
+                            .productPrice(new BigDecimal("1499.00"))
                             .category("Accessories")
                             .build(),
 
                     Products.builder()
                             .productName("Mechanical Keyboard")
                             .productDescription("RGB mechanical gaming keyboard")
-                            .ProductStock(35L)
-                            .ProductPrice(new BigDecimal("3999.00"))
+                            .productStock(35L)
+                            .productPrice(new BigDecimal("3999.00"))
                             .category("Accessories")
                             .build(),
 
                     Products.builder()
                             .productName("Samsung 4K TV")
                             .productDescription("55 inch Samsung 4K UHD Smart TV")
-                            .ProductStock(12L)
-                            .ProductPrice(new BigDecimal("65000.00"))
+                            .productStock(12L)
+                            .productPrice(new BigDecimal("65000.00"))
                             .category("Electronics")
                             .build(),
 
                     Products.builder()
                             .productName("Apple iPad Air")
                             .productDescription("Apple iPad Air tablet")
-                            .ProductStock(18L)
-                            .ProductPrice(new BigDecimal("59999.00"))
+                            .productStock(18L)
+                            .productPrice(new BigDecimal("59999.00"))
                             .category("Tablets")
                             .build(),
 
                     Products.builder()
                             .productName("HP Laser Printer")
                             .productDescription("HP wireless laser printer")
-                            .ProductStock(10L)
-                            .ProductPrice(new BigDecimal("18000.00"))
+                            .productStock(10L)
+                            .productPrice(new BigDecimal("18000.00"))
                             .category("Office Equipment")
                             .build(),
 
                     Products.builder()
                             .productName("Canon DSLR Camera")
                             .productDescription("Canon professional DSLR camera")
-                            .ProductStock(8L)
-                            .ProductPrice(new BigDecimal("55000.00"))
+                            .productStock(8L)
+                            .productPrice(new BigDecimal("55000.00"))
                             .category("Cameras")
                             .build(),
 
                     Products.builder()
                             .productName("Nike Running Shoes")
                             .productDescription("Nike comfortable running shoes")
-                            .ProductStock(45L)
-                            .ProductPrice(new BigDecimal("4999.00"))
+                            .productStock(45L)
+                            .productPrice(new BigDecimal("4999.00"))
                             .category("Fashion")
                             .build(),
 
                     Products.builder()
                             .productName("Adidas Backpack")
                             .productDescription("Adidas durable travel backpack")
-                            .ProductStock(30L)
-                            .ProductPrice(new BigDecimal("2499.00"))
+                            .productStock(30L)
+                            .productPrice(new BigDecimal("2499.00"))
                             .category("Fashion")
                             .build(),
 
                     Products.builder()
                             .productName("LG Washing Machine")
                             .productDescription("LG fully automatic front load washing machine")
-                            .ProductStock(7L)
-                            .ProductPrice(new BigDecimal("32000.00"))
+                            .productStock(7L)
+                            .productPrice(new BigDecimal("32000.00"))
                             .category("Home Appliances")
                             .build(),
 
                     Products.builder()
                             .productName("Boat Bluetooth Speaker")
                             .productDescription("Boat portable wireless Bluetooth speaker")
-                            .ProductStock(55L)
-                            .ProductPrice(new BigDecimal("2999.00"))
+                            .productStock(55L)
+                            .productPrice(new BigDecimal("2999.00"))
                             .category("Electronics")
                             .build()
 
